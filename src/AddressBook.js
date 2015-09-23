@@ -7,5 +7,8 @@ function addressBook() {
 		getContact: function(i) {
 			return contacts[i];
 		},
+		deleteContact: function(i) {
+			return contacts = contacts.splice(1, 1);
+		}
 	}
 };
